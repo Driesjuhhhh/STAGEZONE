@@ -96,7 +96,7 @@ main article img {
     color: white;
 }
 
-.centered {
+.article-big-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -127,7 +127,7 @@ footer a {
     color: white;
 }
 
-.onzichtbaar {
+.invisable {
     display: none;
 }
 
