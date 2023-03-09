@@ -1,3 +1,6 @@
 # STAGEZONE
 
-Website made for the company stagezone
+Files of the official stagezone website.
+
+
+
