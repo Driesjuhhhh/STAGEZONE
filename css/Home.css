@@ -8,8 +8,6 @@ body {
 
 .achtergrond {
     object-fit: cover;
-    width: 100vw;
-    height: 100vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,6 +23,7 @@ header {
     color: white;
     height: 70px;
     z-index: 7;
+    opacity: 50%;
 }
 
 header img {
@@ -82,7 +81,8 @@ main article {
     padding: 15px;
     position: relative;
     text-align: center;
-    height: 400px;
+    height: 465px;
+    color: black;
 }
 
 main article img {
