@@ -65,11 +65,11 @@ article:hover {
     padding-bottom: 1250px;
 }
 
-article:hover .article-big-text{
+article:hover .article-big-text {
     display: none;
 }
 
-.article-text-on-hover{
+.article-text-on-hover {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,7 +77,7 @@ article:hover .article-big-text{
     display: none;
 }
 
-article:hover .article-text-on-hover{
+article:hover .article-text-on-hover {
     display: block
 }
 
@@ -105,7 +105,8 @@ main article img {
     width: 90%;
     height: 100%;
 }
-main article p{
+
+main article p {
     font-size: 50px;
 }
 
