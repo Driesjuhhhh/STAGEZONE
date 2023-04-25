@@ -60,6 +60,7 @@ header nav a:hover {
 
 main {
     padding-top: 80px;
+    z-index: 5;
 }
 
 .articlecenter {
