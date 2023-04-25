@@ -59,7 +59,7 @@ header nav a:hover {
 /*Main*/
 
 main {
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 .articlecenter {
@@ -81,6 +81,10 @@ article {
     text-align: center;
     height: 465px;
     color: black;
+}
+
+article.card {
+    border: 1px solid lightgray;
 }
 
 main article img {
@@ -198,13 +202,14 @@ footer a {
 }
 
 @media screen and (max-width: 800px) {
-    header {
-        display: none;
+    header{
+        height: 90px;
     }
 
-    main {
-        margin-top: 0px;
-        padding-top: 0px;
+    .articlecenter {
+        display: block;
+        justify-content: center;
+        padding-bottom: 300px;
     }
 
     main article img {
@@ -212,8 +217,8 @@ footer a {
     }
 
     main article {
+        display: block;
         width: 90%;
-        float: none;
         margin: auto;
         height: 500px;
         margin-top: 50px;
