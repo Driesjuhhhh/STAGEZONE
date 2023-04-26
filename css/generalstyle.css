@@ -65,8 +65,8 @@ header nav a:hover {
 /* Style the dropdown button */
 .dropbtn {
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     background-color: black;
     color: white;
     padding: 8px;
