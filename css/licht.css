@@ -1,0 +1,10 @@
+.contains-nothing-text{
+    horiz-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+}
+
+.card{
+    display: none;
+}
