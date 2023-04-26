@@ -2,11 +2,33 @@
     background-color: lightgray;
 }
 
+.articlebox p{
+    margin-top:30%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* Default styles for the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
 label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 input[type="submit"] {
@@ -23,5 +45,31 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #3e8e41;
 }
+
+/* Media queries for smaller screens */
+@media (max-width: 600px) {
+    form {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    textarea {
+        font-size: 14px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+    }
+}
+
 
 
