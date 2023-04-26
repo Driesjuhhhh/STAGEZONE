@@ -82,7 +82,11 @@ header nav a:hover {
     z-index: 1;
     position: fixed;
     top: 5px;
-    left: 35px;
+    left: 2px;
+    background-color: gray;
+    opacity: 50%;
+    border: 1px solid black;
+    padding: 1rem;
 }
 
 /* Style the links inside the dropdown */
@@ -92,6 +96,7 @@ header nav a:hover {
     padding-left: 5px;
     text-decoration: none;
     display: inline-block;
+    opacity: 100%;
 }
 
 /* Change color of dropdown links on hover */
@@ -296,7 +301,16 @@ footer a {
         visibility: hidden;
     }
 
+    .articlebox{
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+
     main{
-        padding-top: 50px;
+        padding-top: 0px;
+
     }
 }
